@@ -21,7 +21,7 @@ const Main = () => {
             yil: new Date().getFullYear(),
         };
 
-        console.log(newTask);
+        
         if (newTask.name.length === 0 || newTask.namber.length === 0) {
             toast.error('Please fill in the title and description fields', {
                 position: "top-center",
